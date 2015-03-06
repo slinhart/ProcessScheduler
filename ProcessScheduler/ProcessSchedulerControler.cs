@@ -15,7 +15,7 @@ namespace ProcessScheduler
         static void Main(string[] args)
         {
             Parser parser = new Parser(inFile);
-            psm = parser.parse();
+            ProcessSetModel psm = parser.createPsm();
             Console.Read();
         }
     }
