@@ -8,8 +8,8 @@ namespace ProcessScheduler
 {
     public class ProcessSetModel
     {
-        public Process[] processes;
-        public int algorithm;
+        public List<Process> processes;
+        public int algorithm; //0 = FCFS    1 = Preemptive SJF  2 = Round Robin
         public int duration;
         public int quantum;
     }

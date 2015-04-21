@@ -41,9 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Scheduler.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Process.cs" />
-    <Compile Include="ProcessSchedulerControler.cs" />
+    <Compile Include="ProcessSchedulerController.cs" />
     <Compile Include="ProcessSetModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
